@@ -1,0 +1,51 @@
+# 纸书手记 Paper Book Notes
+
+纸书手记是面向纸质书读者的阅读记录与笔记管理系统。
+
+## 项目目标
+
+帮助用户记录纸质书阅读进度、摘录与想法，并在之后快速检索和回顾。
+
+## 第一版功能
+
+- 用户注册和登录
+- 创建及管理书籍
+- 记录阅读进度
+- 添加摘录、想法和标签
+- 按书籍、标签和关键词查找笔记
+- 查看简单的阅读统计
+
+## 技术栈
+
+- Java 21
+- Spring Boot 3
+- Spring Security
+- MySQL 8
+- Flyway
+- OpenAPI
+- JUnit 5
+- Docker Compose
+
+## 项目状态
+
+当前阶段：需求分析
+
+详细进度参见：[V1 Roadmap](docs/progress/roadmap.md)
+
+## 文档导航
+
+- [项目愿景](docs/00-project/project-vision.md)
+- [V1 范围](docs/00-project/scope-v1.md)
+- [用户故事](docs/01-requirements/user-stories.md)
+- [业务规则](docs/01-requirements/business-rules.md)
+- [系统设计](docs/02-design/architecture.md)
+- [API 文档](docs/03-api/api-conventions.md)
+- [测试计划](docs/04-testing/test-plan.md)
+
+## 本地运行
+
+项目进入编码阶段后补充。
+
+## License
+
+待定。
