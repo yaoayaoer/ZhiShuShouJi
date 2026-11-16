@@ -4,11 +4,11 @@
 
 ```mermaid
 erDiagram
-    用户 ||--o{ 用户书架 : 拥有
-    书籍 ||--o{ 用户书架 : 加入
-    用户书架 ||--o{ 阅读记录 : 产生
-    用户书架 ||--o{ 笔记 : 包含
-    用户 ||--o{ 标签 : 创建
-    笔记 ||--o{ 笔记标签关联 : 关联
-    标签 ||--o{ 笔记标签关联 : 关联
+    USER[用户] ||--o{ USER_BOOK[用户书架] : 拥有
+    BOOK[书籍] ||--o{ USER_BOOK : 加入
+    USER_BOOK ||--o{ READING_RECORD[阅读记录] : 产生
+    USER_BOOK ||--o{ NOTE[笔记] : 包含
+    USER ||--o{ TAG[标签] : 创建
+    NOTE ||--o{ NOTE_TAG[笔记标签关联] : 关联
+    TAG ||--o{ NOTE_TAG : 关联
 ```
